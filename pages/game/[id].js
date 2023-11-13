@@ -12,7 +12,7 @@ import { ContentPairProvider, useWaku } from "@waku/react";
 // Misc imports
 import ShortUniqueId from 'short-unique-id';
 
-export default function game() {
+export default function Game() {
 
     const router = useRouter();
     const room = router.query.id;
