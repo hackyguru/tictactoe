@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 
 // Waku imports
-import { ContentPairProvider, LightNodeProvider } from "@waku/react";
+import { LightNodeProvider } from "@waku/react";
 import { Protocols } from "@waku/sdk";
 
 

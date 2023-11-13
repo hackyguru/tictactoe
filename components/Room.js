@@ -29,6 +29,7 @@ export default function Room(props) {
   const [winningPattern, setWinningPattern] = useState(null);
 
   const { decoder, encoder } = useContentPair();
+  
   const { messages: storeMessages } = useStoreMessages({
     node,
     decoder,

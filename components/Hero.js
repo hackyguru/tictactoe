@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import Loading from './Loading';
 import ShortUniqueId from 'short-unique-id';
