@@ -29,7 +29,7 @@ export default function Room(props) {
   const [winningPattern, setWinningPattern] = useState(null);
 
   const { decoder, encoder } = useContentPair();
-  
+
   const { messages: storeMessages } = useStoreMessages({
     node,
     decoder,
@@ -248,8 +248,8 @@ export default function Room(props) {
             <p>Game URL</p>
           </div>
           <div className='px-3 py-3 text-center flex border-2 border-white text-white underline items-center justify-between'>
-            <p>http://localhost:3001/game/{props.room}</p>
-            <button onClick={() => copy(`http://localhost:3001/game/${props.room}`)}>
+            <p>https://waku-xo.vercel.app/game/{props.room}</p>
+            <button onClick={() => copy(`https://waku-xo.vercel.app/game/${props.room}`)}>
               <svg width='20' height='20' viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'>
                 <path
                   fill='currentColor'
