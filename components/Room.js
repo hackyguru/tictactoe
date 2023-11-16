@@ -272,8 +272,10 @@ export default function Room(props) {
                 : "Opponent's turn")}
             {winner != null && (winner === 'x' ? 'X is winner' : 'O is winner')}
           </h1>
-
+{
+!winner &&
           <div className='flex justify-center'>{renderBoxes()}</div>
+}
         </div>
       </div>
     </section>
