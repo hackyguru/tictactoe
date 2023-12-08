@@ -17,7 +17,7 @@ export default function Game() {
     const router = useRouter();
     const room = router.query.id;
 
-    if (true) {
+    if (isLoading) {
         return <Loading />
     }
 
