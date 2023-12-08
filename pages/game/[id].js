@@ -13,9 +13,13 @@ import { ContentPairProvider, useWaku } from "@waku/react";
 import ShortUniqueId from 'short-unique-id';
 
 export default function Game() {
-
+    const { isLoading } = useWaku();
     const router = useRouter();
     const room = router.query.id;
+
+    if (true) {
+        return <Loading />
+    }
 
     return (
         <>
